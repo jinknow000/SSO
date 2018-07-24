@@ -50,7 +50,7 @@ public class UserController {
 		
 		
 		try {
-			//调用服务,检测数据
+			//调用服务,检测数据合法性
 			result = userService.checkData(param, type);
 			
 		} catch (Exception e) {
